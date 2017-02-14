@@ -51,7 +51,6 @@ class StringHelper {
      * @return string Conjunto de carateres aleatórios.
      */
     public static function getRandomKey($length) {
-      //
         $max = ceil($length / 40);
         $random = '';
         for ($i=0; $i<$max; $i++) {
