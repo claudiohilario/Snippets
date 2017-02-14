@@ -10,6 +10,13 @@ $date       | Type: string  | Data.
 
 $id_lang    | Type: int     | ID do idioma.
 
+### getDateTimeFormated( $date_time, $id_lang )
+Data/hora formatada num determinado idioma.
+
+$date_time  | Type: string  | Data e hora.
+
+$id_lang    | Type: int     | ID do idioma.
+
 
 License
 ----

@@ -25,7 +25,7 @@ class CalendarHelper {
      *
      * @version 1.0.1 (14/02/2017)
      *
-     * @param string 	$date 		Data.
+     * @param string    $date       Data.
      * @param int       $id_lang    ID do idioma.
      *
      * @return string Data formatada.
@@ -44,13 +44,13 @@ class CalendarHelper {
      *
      * @version 1.0.1 (14/02/2017)
      *
-     * @param string 	$date 		Número do mês.
+     * @param string 	$date_time	Data e hora.
      * @param int 		$id_lang 	ID do idioma.
      *
      * @return string Data/hora formatada.
      */
-    public static function getDateTimeFormated(string $date, int $id_lang) : string {
-        $date_formated 	= strtotime($date);
+    public static function getDateTimeFormated(string $date_time, int $id_lang) : string {
+        $date_formated 	= strtotime($date_time);
         $date_formated 	= getdate($date_formated);
         $date_day 		= $date_formated['mday'];
         $date_month 	= self::getMonthNameAbbreviated($date_formated['mon'], $id_lang);
