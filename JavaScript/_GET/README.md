@@ -5,6 +5,7 @@ Split / characters.
 ### Sintax
 
 _GET( index )
+
 index | Type: Integer | Index of element array to be returned
 
 License
