@@ -1,6 +1,6 @@
 <?php
 /**
- * Class Calendar | core/CalendarHelper.class.php
+ * Class CalendarHelper | core/CalendarHelper.class.php
  *
  * @package     Core\Helper
  * @author      Sandro Miguel Marques <sandromiguel@produlogia.com>
@@ -13,7 +13,7 @@ declare(strict_types=1);
 namespace Franework\Core;
 
 /**
- * Class CalendarHelper
+ * Class CalendarHelper - Helper
  *
  * Classe utilitária para datas
  */
