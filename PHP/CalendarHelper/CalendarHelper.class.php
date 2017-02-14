@@ -25,7 +25,7 @@ class CalendarHelper {
      *
      * @version 1.0.1 (14/02/2017)
      *
-     * @param string 	$date 		Número do mês.
+     * @param string 	$date 		Data.
      * @param int       $id_lang    ID do idioma.
      *
      * @return string Data formatada.

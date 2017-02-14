@@ -1,9 +1,11 @@
 # Class ArrayHelper - Helper
 Classe utilitária para trabalhar com arrays.
 
-### Métodos
+## Métodos
 
-collectionToSentence( $string, $delimiter, $id_lang )
+### collectionToSentence( $string, $delimiter, $id_lang )
+Converte uma string de itens numa frase separada por vírgulas.
+Ex.: a,b,c -> a, b and c
 
 $string     | Type: string  | String de itens.
 

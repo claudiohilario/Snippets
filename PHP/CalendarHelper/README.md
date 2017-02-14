@@ -1,9 +1,9 @@
 # Class CalendarHelper - Helper
 Classe utilitária para datas.
 
-### Métodos
+## Métodos
 
-## getDateFormated( $date, $id_lang )
+### getDateFormated( $date, $id_lang )
 Data formatada num determinado idioma.
 
 $date       | Type: string  | Data.
