@@ -51,6 +51,7 @@ class StringHelper {
      * @return string Conjunto de carateres aleatórios.
      */
     public static function getRandomKey($length) {
+      //
         $max = ceil($length / 40);
         $random = '';
         for ($i=0; $i<$max; $i++) {
@@ -60,7 +61,7 @@ class StringHelper {
     }
 
     /**
-     * Wrapper for "strtoupper" function to support UTF8 strings. 
+     * Wrapper for "strtoupper" function to support UTF8 strings.
      * Método strToUpper() do XCart.
      *
      * @version 1.0 (28/07/2016)
@@ -77,7 +78,7 @@ class StringHelper {
     }
 
     /**
-     * Wrapper for "strtolower" function to support UTF8 strings. 
+     * Wrapper for "strtolower" function to support UTF8 strings.
      *
      * @version 1.0 (03/09/2016)
      *
